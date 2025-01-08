@@ -1,0 +1,14 @@
+last\aipbmgr.o: ../X-CUBE-AI/App/aiPbMgr.c
+last\aipbmgr.o: ../X-CUBE-AI/App/aiPbMgr.h
+last\aipbmgr.o: D:\MDK5.36\ARM\ARMCC\Bin\..\include\stdint.h
+last\aipbmgr.o: ../X-CUBE-AI/App/pb.h
+last\aipbmgr.o: D:\MDK5.36\ARM\ARMCC\Bin\..\include\stddef.h
+last\aipbmgr.o: D:\MDK5.36\ARM\ARMCC\Bin\..\include\stdbool.h
+last\aipbmgr.o: D:\MDK5.36\ARM\ARMCC\Bin\..\include\string.h
+last\aipbmgr.o: ../X-CUBE-AI/App/stm32msg.pb.h
+last\aipbmgr.o: ../X-CUBE-AI/App/aiPbIO.h
+last\aipbmgr.o: ../X-CUBE-AI/App/pb_encode.h
+last\aipbmgr.o: ../X-CUBE-AI/App/pb_decode.h
+last\aipbmgr.o: ../X-CUBE-AI/App/ai_device_adaptor.h
+last\aipbmgr.o: ../Drivers/CMSIS/Include/cmsis_compiler.h
+last\aipbmgr.o: ../Drivers/CMSIS/Include/cmsis_armcc.h

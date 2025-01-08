@@ -1,0 +1,6 @@
+--c99 --gnu -c --cpu Cortex-M7.fp.dp -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../X-CUBE-AI/App -I ../X-CUBE-AI -I ../Middlewares/ST/AI/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I ../Drivers/CMSIS/Include
+-I.\RTE\_last
+-ID:\MDK5.36\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include
+-ID:\MDK5.36\Packs\Keil\STM32H7xx_DFP\2.7.0\Drivers\CMSIS\Device\ST\STM32H7xx\Include
+-D__UVISION_VERSION="536" -D_RTE_ -DSTM32H742xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32H742xx
+-o last\network.o --omf_browse last\network.crf --depend last\network.d "../X-CUBE-AI/App/network.c"

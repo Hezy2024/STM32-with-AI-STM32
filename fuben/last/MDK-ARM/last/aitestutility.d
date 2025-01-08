@@ -1,0 +1,10 @@
+last\aitestutility.o: ../X-CUBE-AI/App/aiTestUtility.c
+last\aitestutility.o: D:\MDK5.36\ARM\ARMCC\Bin\..\include\stdio.h
+last\aitestutility.o: D:\MDK5.36\ARM\ARMCC\Bin\..\include\string.h
+last\aitestutility.o: D:\MDK5.36\ARM\ARMCC\Bin\..\include\stdarg.h
+last\aitestutility.o: ../X-CUBE-AI/App/aiTestUtility.h
+last\aitestutility.o: D:\MDK5.36\ARM\ARMCC\Bin\..\include\stdint.h
+last\aitestutility.o: D:\MDK5.36\ARM\ARMCC\Bin\..\include\stdbool.h
+last\aitestutility.o: ../X-CUBE-AI/App/ai_device_adaptor.h
+last\aitestutility.o: ../Drivers/CMSIS/Include/cmsis_compiler.h
+last\aitestutility.o: ../Drivers/CMSIS/Include/cmsis_armcc.h

@@ -1,0 +1,751 @@
+Dependencies for Project 'last', Target 'last': (DO NOT MODIFY !)
+CompilerVersion: 5060960::V5.06 update 7 (build 960)::.\ARMCC
+F (startup_stm32h742xx.s)(0x677A503B)(--cpu Cortex-M7.fp.dp -g --apcs=interwork -I.\RTE\_last-ID:\MDK5.36\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-ID:\MDK5.36\Packs\Keil\STM32H7xx_DFP\2.7.0\Drivers\CMSIS\Device\ST\STM32H7xx\Include--pd "__UVISION_VERSION SETA 536" --pd "_RTE_ SETA 1" --pd "STM32H742xx SETA 1" --pd "_RTE_ SETA 1"--list startup_stm32h742xx.lst --xref -o last\startup_stm32h742xx.o --depend last\startup_stm32h742xx.d)
+F (../X-CUBE-AI/App/network.c)(0x677A5033)(--c99 --gnu -c --cpu Cortex-M7.fp.dp -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../X-CUBE-AI/App -I ../X-CUBE-AI -I ../Middlewares/ST/AI/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I ../Drivers/CMSIS/Include-I.\RTE\_last-ID:\MDK5.36\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-ID:\MDK5.36\Packs\Keil\STM32H7xx_DFP\2.7.0\Drivers\CMSIS\Device\ST\STM32H7xx\Include-D__UVISION_VERSION="536" -D_RTE_ -DSTM32H742xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32H742xx-o last\network.o --omf_browse last\network.crf --depend last\network.d)
+I (../X-CUBE-AI/App/network.h)(0x677A5033)
+I (../X-CUBE-AI/App/network_config.h)(0x677A5033)
+I (../Middlewares/ST/AI/Inc/ai_platform.h)(0x677A435B)
+I (D:\MDK5.36\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (D:\MDK5.36\ARM\ARMCC\include\stddef.h)(0x6025237E)
+I (D:\MDK5.36\ARM\ARMCC\include\inttypes.h)(0x6025237E)
+I (D:\MDK5.36\ARM\ARMCC\include\stdbool.h)(0x6025237C)
+I (../X-CUBE-AI/App/network_data.h)(0x677A5033)
+I (../X-CUBE-AI/App/network_data_params.h)(0x677A5033)
+I (../Middlewares/ST/AI/Inc/ai_platform_interface.h)(0x677A435B)
+I (../Middlewares/ST/AI/Inc/datatypes_network.h)(0x677A435B)
+I (../Middlewares/ST/AI/Inc/ai_datatypes.h)(0x677A435B)
+I (D:\MDK5.36\ARM\ARMCC\include\string.h)(0x6025237E)
+I (../Middlewares/ST/AI/Inc/ai_datatypes_format.h)(0x677A435B)
+I (../Middlewares/ST/AI/Inc/ai_datatypes_defines.h)(0x677A435B)
+I (../Middlewares/ST/AI/Inc/formats_list.h)(0x677A435B)
+I (../Middlewares/ST/AI/Inc/ai_math_helpers.h)(0x677A435B)
+I (../Middlewares/ST/AI/Inc/ai_lite_math_helpers.h)(0x677A435B)
+I (D:\MDK5.36\ARM\ARMCC\include\math.h)(0x60252378)
+I (../Middlewares/ST/AI/Inc/core_common.h)(0x677A435B)
+I (../Middlewares/ST/AI/Inc/core_datatypes.h)(0x677A435B)
+I (../Middlewares/ST/AI/Inc/core_convert.h)(0x677A435B)
+I (../Middlewares/ST/AI/Inc/layers.h)(0x677A435B)
+I (../Middlewares/ST/AI/Inc/layers_common.h)(0x677A435B)
+I (../Middlewares/ST/AI/Inc/ai_common_config.h)(0x677A435B)
+I (../Middlewares/ST/AI/Inc/layers_list.h)(0x677A435B)
+I (../Middlewares/ST/AI/Inc/layers_conv2d.h)(0x677A435B)
+I (../Middlewares/ST/AI/Inc/layers_nl.h)(0x677A435B)
+I (../Middlewares/ST/AI/Inc/layers_pool.h)(0x677A435B)
+I (../Middlewares/ST/AI/Inc/lite_maxpool_dqnn.h)(0x677A435B)
+I (../Middlewares/ST/AI/Inc/ai_lite_interface.h)(0x677A435B)
+I (../Middlewares/ST/AI/Inc/ai_lite.h)(0x677A435B)
+I (../Middlewares/ST/AI/Inc/ai_lite_inspect.h)(0x677A435B)
+I (../Middlewares/ST/AI/Inc/lite_pool_f32.h)(0x677A435B)
+I (../Middlewares/ST/AI/Inc/layers_custom.h)(0x677A435B)
+I (../Middlewares/ST/AI/Inc/layers_dense.h)(0x677A435B)
+I (../Middlewares/ST/AI/Inc/layers_formats_converters.h)(0x677A435B)
+I (../Middlewares/ST/AI/Inc/layers_generic.h)(0x677A435B)
+I (../Middlewares/ST/AI/Inc/layers_lite_graph.h)(0x677A435B)
+I (../Middlewares/ST/AI/Inc/layers_norm.h)(0x677A435B)
+I (../Middlewares/ST/AI/Inc/layers_pad_dqnn.h)(0x677A435B)
+I (../Middlewares/ST/AI/Inc/layers_pad_generic.h)(0x677A435B)
+I (../Middlewares/ST/AI/Inc/layers_rnn.h)(0x677A435B)
+I (../Middlewares/ST/AI/Inc/layers_upsample_generic.h)(0x677A435B)
+I (../Middlewares/ST/AI/Inc/layers_sm.h)(0x677A435B)
+I (../Middlewares/ST/AI/Inc/layers_ml.h)(0x677A435B)
+I (../Middlewares/ST/AI/Inc/layers_ml_iforest.h)(0x677A435B)
+I (../Middlewares/ST/AI/Inc/layers_ml_svc.h)(0x677A435B)
+I (../Middlewares/ST/AI/Inc/layers_ml_linearclassifier.h)(0x677A435B)
+I (../Middlewares/ST/AI/Inc/layers_ml_treeensembleclassifier.h)(0x677A435B)
+I (../Middlewares/ST/AI/Inc/layers_ml_treeensembleregressor.h)(0x677A435B)
+I (../Middlewares/ST/AI/Inc/layers_ml_svmregressor.h)(0x677A435B)
+I (../Middlewares/ST/AI/Inc/layers_conv2d_dqnn.h)(0x677A435B)
+I (../Middlewares/ST/AI/Inc/layers_dense_dqnn.h)(0x677A435B)
+I (../Middlewares/ST/AI/Inc/layers_pool_dqnn.h)(0x677A435B)
+I (../Middlewares/ST/AI/Inc/layers_generic_dqnn.h)(0x677A435B)
+F (../X-CUBE-AI/App/network_data.c)(0x677A5033)(--c99 --gnu -c --cpu Cortex-M7.fp.dp -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../X-CUBE-AI/App -I ../X-CUBE-AI -I ../Middlewares/ST/AI/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I ../Drivers/CMSIS/Include-I.\RTE\_last-ID:\MDK5.36\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-ID:\MDK5.36\Packs\Keil\STM32H7xx_DFP\2.7.0\Drivers\CMSIS\Device\ST\STM32H7xx\Include-D__UVISION_VERSION="536" -D_RTE_ -DSTM32H742xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32H742xx-o last\network_data.o --omf_browse last\network_data.crf --depend last\network_data.d)
+I (../X-CUBE-AI/App/network_data.h)(0x677A5033)
+I (../X-CUBE-AI/App/network_config.h)(0x677A5033)
+I (../X-CUBE-AI/App/network_data_params.h)(0x677A5033)
+I (../Middlewares/ST/AI/Inc/ai_platform.h)(0x677A435B)
+I (D:\MDK5.36\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (D:\MDK5.36\ARM\ARMCC\include\stddef.h)(0x6025237E)
+I (D:\MDK5.36\ARM\ARMCC\include\inttypes.h)(0x6025237E)
+I (D:\MDK5.36\ARM\ARMCC\include\stdbool.h)(0x6025237C)
+I (../Middlewares/ST/AI/Inc/ai_platform_interface.h)(0x677A435B)
+I (../Middlewares/ST/AI/Inc/datatypes_network.h)(0x677A435B)
+I (../Middlewares/ST/AI/Inc/ai_datatypes.h)(0x677A435B)
+I (D:\MDK5.36\ARM\ARMCC\include\string.h)(0x6025237E)
+I (../Middlewares/ST/AI/Inc/ai_datatypes_format.h)(0x677A435B)
+I (../Middlewares/ST/AI/Inc/ai_datatypes_defines.h)(0x677A435B)
+I (../Middlewares/ST/AI/Inc/formats_list.h)(0x677A435B)
+F (../X-CUBE-AI/App/network_data_params.c)(0x677A5033)(--c99 --gnu -c --cpu Cortex-M7.fp.dp -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../X-CUBE-AI/App -I ../X-CUBE-AI -I ../Middlewares/ST/AI/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I ../Drivers/CMSIS/Include-I.\RTE\_last-ID:\MDK5.36\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-ID:\MDK5.36\Packs\Keil\STM32H7xx_DFP\2.7.0\Drivers\CMSIS\Device\ST\STM32H7xx\Include-D__UVISION_VERSION="536" -D_RTE_ -DSTM32H742xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32H742xx-o last\network_data_params.o --omf_browse last\network_data_params.crf --depend last\network_data_params.d)
+I (../X-CUBE-AI/App/network_data_params.h)(0x677A5033)
+I (../Middlewares/ST/AI/Inc/ai_platform.h)(0x677A435B)
+I (D:\MDK5.36\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (D:\MDK5.36\ARM\ARMCC\include\stddef.h)(0x6025237E)
+I (D:\MDK5.36\ARM\ARMCC\include\inttypes.h)(0x6025237E)
+I (D:\MDK5.36\ARM\ARMCC\include\stdbool.h)(0x6025237C)
+F (../X-CUBE-AI/App/aiPbIO.c)(0x677A435C)(--c99 --gnu -c --cpu Cortex-M7.fp.dp -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../X-CUBE-AI/App -I ../X-CUBE-AI -I ../Middlewares/ST/AI/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I ../Drivers/CMSIS/Include-I.\RTE\_last-ID:\MDK5.36\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-ID:\MDK5.36\Packs\Keil\STM32H7xx_DFP\2.7.0\Drivers\CMSIS\Device\ST\STM32H7xx\Include-D__UVISION_VERSION="536" -D_RTE_ -DSTM32H742xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32H742xx-o last\aipbio.o --omf_browse last\aipbio.crf --depend last\aipbio.d)
+I (D:\MDK5.36\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (D:\MDK5.36\ARM\ARMCC\include\stdlib.h)(0x60252374)
+I (D:\MDK5.36\ARM\ARMCC\include\stdio.h)(0x60252374)
+I (D:\MDK5.36\ARM\ARMCC\include\inttypes.h)(0x6025237E)
+I (D:\MDK5.36\ARM\ARMCC\include\string.h)(0x6025237E)
+I (../X-CUBE-AI/App/aiPbIO.h)(0x677A435C)
+I (../X-CUBE-AI/App/pb.h)(0x677A435C)
+I (D:\MDK5.36\ARM\ARMCC\include\stddef.h)(0x6025237E)
+I (D:\MDK5.36\ARM\ARMCC\include\stdbool.h)(0x6025237C)
+I (../X-CUBE-AI/App/aiTestUtility.h)(0x677A435C)
+I (../X-CUBE-AI/App/ai_device_adaptor.h)(0x677A435C)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x673D5C12)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x673D5C12)
+F (../X-CUBE-AI/App/aiPbMemRWServices.c)(0x677A435C)(--c99 --gnu -c --cpu Cortex-M7.fp.dp -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../X-CUBE-AI/App -I ../X-CUBE-AI -I ../Middlewares/ST/AI/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I ../Drivers/CMSIS/Include-I.\RTE\_last-ID:\MDK5.36\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-ID:\MDK5.36\Packs\Keil\STM32H7xx_DFP\2.7.0\Drivers\CMSIS\Device\ST\STM32H7xx\Include-D__UVISION_VERSION="536" -D_RTE_ -DSTM32H742xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32H742xx-o last\aipbmemrwservices.o --omf_browse last\aipbmemrwservices.crf --depend last\aipbmemrwservices.d)
+I (../X-CUBE-AI/App/aiPbMemRWServices.h)(0x677A435C)
+I (../X-CUBE-AI/App/aiPbMgr.h)(0x677A435C)
+I (D:\MDK5.36\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (../X-CUBE-AI/App/pb.h)(0x677A435C)
+I (D:\MDK5.36\ARM\ARMCC\include\stddef.h)(0x6025237E)
+I (D:\MDK5.36\ARM\ARMCC\include\stdbool.h)(0x6025237C)
+I (D:\MDK5.36\ARM\ARMCC\include\string.h)(0x6025237E)
+I (../X-CUBE-AI/App/stm32msg.pb.h)(0x677A435C)
+F (../X-CUBE-AI/App/aiPbMgr.c)(0x677A435C)(--c99 --gnu -c --cpu Cortex-M7.fp.dp -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../X-CUBE-AI/App -I ../X-CUBE-AI -I ../Middlewares/ST/AI/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I ../Drivers/CMSIS/Include-I.\RTE\_last-ID:\MDK5.36\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-ID:\MDK5.36\Packs\Keil\STM32H7xx_DFP\2.7.0\Drivers\CMSIS\Device\ST\STM32H7xx\Include-D__UVISION_VERSION="536" -D_RTE_ -DSTM32H742xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32H742xx-o last\aipbmgr.o --omf_browse last\aipbmgr.crf --depend last\aipbmgr.d)
+I (../X-CUBE-AI/App/aiPbMgr.h)(0x677A435C)
+I (D:\MDK5.36\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (../X-CUBE-AI/App/pb.h)(0x677A435C)
+I (D:\MDK5.36\ARM\ARMCC\include\stddef.h)(0x6025237E)
+I (D:\MDK5.36\ARM\ARMCC\include\stdbool.h)(0x6025237C)
+I (D:\MDK5.36\ARM\ARMCC\include\string.h)(0x6025237E)
+I (../X-CUBE-AI/App/stm32msg.pb.h)(0x677A435C)
+I (../X-CUBE-AI/App/aiPbIO.h)(0x677A435C)
+I (../X-CUBE-AI/App/pb_encode.h)(0x677A435C)
+I (../X-CUBE-AI/App/pb_decode.h)(0x677A435C)
+I (../X-CUBE-AI/App/ai_device_adaptor.h)(0x677A435C)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x673D5C12)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x673D5C12)
+F (../X-CUBE-AI/App/aiValidation.c)(0x677A435C)(--c99 --gnu -c --cpu Cortex-M7.fp.dp -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../X-CUBE-AI/App -I ../X-CUBE-AI -I ../Middlewares/ST/AI/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I ../Drivers/CMSIS/Include-I.\RTE\_last-ID:\MDK5.36\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-ID:\MDK5.36\Packs\Keil\STM32H7xx_DFP\2.7.0\Drivers\CMSIS\Device\ST\STM32H7xx\Include-D__UVISION_VERSION="536" -D_RTE_ -DSTM32H742xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32H742xx-o last\aivalidation.o --omf_browse last\aivalidation.crf --depend last\aivalidation.d)
+I (D:\MDK5.36\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (D:\MDK5.36\ARM\ARMCC\include\stdlib.h)(0x60252374)
+I (D:\MDK5.36\ARM\ARMCC\include\stdio.h)(0x60252374)
+I (D:\MDK5.36\ARM\ARMCC\include\inttypes.h)(0x6025237E)
+I (D:\MDK5.36\ARM\ARMCC\include\string.h)(0x6025237E)
+I (D:\MDK5.36\ARM\ARMCC\include\stdarg.h)(0x60252376)
+I (../X-CUBE-AI/App/aiValidation.h)(0x677A435C)
+I (../X-CUBE-AI/App/aiTestUtility.h)(0x677A435C)
+I (D:\MDK5.36\ARM\ARMCC\include\stdbool.h)(0x6025237C)
+I (../X-CUBE-AI/App/ai_device_adaptor.h)(0x677A435C)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x673D5C12)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x673D5C12)
+F (../X-CUBE-AI/App/pb_common.c)(0x677A435C)(--c99 --gnu -c --cpu Cortex-M7.fp.dp -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../X-CUBE-AI/App -I ../X-CUBE-AI -I ../Middlewares/ST/AI/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I ../Drivers/CMSIS/Include-I.\RTE\_last-ID:\MDK5.36\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-ID:\MDK5.36\Packs\Keil\STM32H7xx_DFP\2.7.0\Drivers\CMSIS\Device\ST\STM32H7xx\Include-D__UVISION_VERSION="536" -D_RTE_ -DSTM32H742xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32H742xx-o last\pb_common.o --omf_browse last\pb_common.crf --depend last\pb_common.d)
+I (../X-CUBE-AI/App/pb_common.h)(0x677A435C)
+I (../X-CUBE-AI/App/pb.h)(0x677A435C)
+I (D:\MDK5.36\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (D:\MDK5.36\ARM\ARMCC\include\stddef.h)(0x6025237E)
+I (D:\MDK5.36\ARM\ARMCC\include\stdbool.h)(0x6025237C)
+I (D:\MDK5.36\ARM\ARMCC\include\string.h)(0x6025237E)
+F (../X-CUBE-AI/App/pb_decode.c)(0x677A435C)(--c99 --gnu -c --cpu Cortex-M7.fp.dp -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../X-CUBE-AI/App -I ../X-CUBE-AI -I ../Middlewares/ST/AI/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I ../Drivers/CMSIS/Include-I.\RTE\_last-ID:\MDK5.36\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-ID:\MDK5.36\Packs\Keil\STM32H7xx_DFP\2.7.0\Drivers\CMSIS\Device\ST\STM32H7xx\Include-D__UVISION_VERSION="536" -D_RTE_ -DSTM32H742xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32H742xx-o last\pb_decode.o --omf_browse last\pb_decode.crf --depend last\pb_decode.d)
+I (../X-CUBE-AI/App/pb.h)(0x677A435C)
+I (D:\MDK5.36\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (D:\MDK5.36\ARM\ARMCC\include\stddef.h)(0x6025237E)
+I (D:\MDK5.36\ARM\ARMCC\include\stdbool.h)(0x6025237C)
+I (D:\MDK5.36\ARM\ARMCC\include\string.h)(0x6025237E)
+I (../X-CUBE-AI/App/pb_decode.h)(0x677A435C)
+I (../X-CUBE-AI/App/pb_common.h)(0x677A435C)
+F (../X-CUBE-AI/App/pb_encode.c)(0x677A435C)(--c99 --gnu -c --cpu Cortex-M7.fp.dp -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../X-CUBE-AI/App -I ../X-CUBE-AI -I ../Middlewares/ST/AI/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I ../Drivers/CMSIS/Include-I.\RTE\_last-ID:\MDK5.36\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-ID:\MDK5.36\Packs\Keil\STM32H7xx_DFP\2.7.0\Drivers\CMSIS\Device\ST\STM32H7xx\Include-D__UVISION_VERSION="536" -D_RTE_ -DSTM32H742xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32H742xx-o last\pb_encode.o --omf_browse last\pb_encode.crf --depend last\pb_encode.d)
+I (../X-CUBE-AI/App/pb.h)(0x677A435C)
+I (D:\MDK5.36\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (D:\MDK5.36\ARM\ARMCC\include\stddef.h)(0x6025237E)
+I (D:\MDK5.36\ARM\ARMCC\include\stdbool.h)(0x6025237C)
+I (D:\MDK5.36\ARM\ARMCC\include\string.h)(0x6025237E)
+I (../X-CUBE-AI/App/pb_encode.h)(0x677A435C)
+I (../X-CUBE-AI/App/pb_common.h)(0x677A435C)
+F (../X-CUBE-AI/App/stm32msg.pb.c)(0x677A435C)(--c99 --gnu -c --cpu Cortex-M7.fp.dp -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../X-CUBE-AI/App -I ../X-CUBE-AI -I ../Middlewares/ST/AI/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I ../Drivers/CMSIS/Include-I.\RTE\_last-ID:\MDK5.36\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-ID:\MDK5.36\Packs\Keil\STM32H7xx_DFP\2.7.0\Drivers\CMSIS\Device\ST\STM32H7xx\Include-D__UVISION_VERSION="536" -D_RTE_ -DSTM32H742xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32H742xx-o last\stm32msg.pb.o --omf_browse last\stm32msg.pb.crf --depend last\stm32msg.pb.d)
+I (../X-CUBE-AI/App/stm32msg.pb.h)(0x677A435C)
+I (../X-CUBE-AI/App/pb.h)(0x677A435C)
+I (D:\MDK5.36\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (D:\MDK5.36\ARM\ARMCC\include\stddef.h)(0x6025237E)
+I (D:\MDK5.36\ARM\ARMCC\include\stdbool.h)(0x6025237C)
+I (D:\MDK5.36\ARM\ARMCC\include\string.h)(0x6025237E)
+F (../X-CUBE-AI/App/aiTestHelper.c)(0x677A435C)(--c99 --gnu -c --cpu Cortex-M7.fp.dp -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../X-CUBE-AI/App -I ../X-CUBE-AI -I ../Middlewares/ST/AI/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I ../Drivers/CMSIS/Include-I.\RTE\_last-ID:\MDK5.36\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-ID:\MDK5.36\Packs\Keil\STM32H7xx_DFP\2.7.0\Drivers\CMSIS\Device\ST\STM32H7xx\Include-D__UVISION_VERSION="536" -D_RTE_ -DSTM32H742xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32H742xx-o last\aitesthelper.o --omf_browse last\aitesthelper.crf --depend last\aitesthelper.d)
+I (D:\MDK5.36\ARM\ARMCC\include\stdio.h)(0x60252374)
+I (D:\MDK5.36\ARM\ARMCC\include\string.h)(0x6025237E)
+I (../X-CUBE-AI/App/aiTestHelper.h)(0x677A435C)
+I (D:\MDK5.36\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (../Middlewares/ST/AI/Inc/ai_platform.h)(0x677A435B)
+I (D:\MDK5.36\ARM\ARMCC\include\stddef.h)(0x6025237E)
+I (D:\MDK5.36\ARM\ARMCC\include\inttypes.h)(0x6025237E)
+I (D:\MDK5.36\ARM\ARMCC\include\stdbool.h)(0x6025237C)
+I (../X-CUBE-AI/App/aiTestUtility.h)(0x677A435C)
+I (../X-CUBE-AI/App/ai_device_adaptor.h)(0x677A435C)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x673D5C12)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x673D5C12)
+F (../X-CUBE-AI/App/aiTestUtility.c)(0x677A435C)(--c99 --gnu -c --cpu Cortex-M7.fp.dp -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../X-CUBE-AI/App -I ../X-CUBE-AI -I ../Middlewares/ST/AI/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I ../Drivers/CMSIS/Include-I.\RTE\_last-ID:\MDK5.36\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-ID:\MDK5.36\Packs\Keil\STM32H7xx_DFP\2.7.0\Drivers\CMSIS\Device\ST\STM32H7xx\Include-D__UVISION_VERSION="536" -D_RTE_ -DSTM32H742xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32H742xx-o last\aitestutility.o --omf_browse last\aitestutility.crf --depend last\aitestutility.d)
+I (D:\MDK5.36\ARM\ARMCC\include\stdio.h)(0x60252374)
+I (D:\MDK5.36\ARM\ARMCC\include\string.h)(0x6025237E)
+I (D:\MDK5.36\ARM\ARMCC\include\stdarg.h)(0x60252376)
+I (../X-CUBE-AI/App/aiTestUtility.h)(0x677A435C)
+I (D:\MDK5.36\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (D:\MDK5.36\ARM\ARMCC\include\stdbool.h)(0x6025237C)
+I (../X-CUBE-AI/App/ai_device_adaptor.h)(0x677A435C)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x673D5C12)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x673D5C12)
+F (../X-CUBE-AI/App/ai_device_adaptor.c)(0x677A435C)(--c99 --gnu -c --cpu Cortex-M7.fp.dp -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../X-CUBE-AI/App -I ../X-CUBE-AI -I ../Middlewares/ST/AI/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I ../Drivers/CMSIS/Include-I.\RTE\_last-ID:\MDK5.36\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-ID:\MDK5.36\Packs\Keil\STM32H7xx_DFP\2.7.0\Drivers\CMSIS\Device\ST\STM32H7xx\Include-D__UVISION_VERSION="536" -D_RTE_ -DSTM32H742xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32H742xx-o last\ai_device_adaptor.o --omf_browse last\ai_device_adaptor.crf --depend last\ai_device_adaptor.d)
+I (../X-CUBE-AI/App/ai_device_adaptor.h)(0x677A435C)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x673D5C12)
+I (D:\MDK5.36\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x673D5C12)
+I (D:\MDK5.36\ARM\ARMCC\include\stdbool.h)(0x6025237C)
+F (../X-CUBE-AI/App/lc_print.c)(0x677A435C)(--c99 --gnu -c --cpu Cortex-M7.fp.dp -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../X-CUBE-AI/App -I ../X-CUBE-AI -I ../Middlewares/ST/AI/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I ../Drivers/CMSIS/Include-I.\RTE\_last-ID:\MDK5.36\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-ID:\MDK5.36\Packs\Keil\STM32H7xx_DFP\2.7.0\Drivers\CMSIS\Device\ST\STM32H7xx\Include-D__UVISION_VERSION="536" -D_RTE_ -DSTM32H742xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32H742xx-o last\lc_print.o --omf_browse last\lc_print.crf --depend last\lc_print.d)
+I (D:\MDK5.36\ARM\ARMCC\include\string.h)(0x6025237E)
+I (D:\MDK5.36\ARM\ARMCC\include\stdarg.h)(0x60252376)
+I (D:\MDK5.36\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (D:\MDK5.36\ARM\ARMCC\include\stdbool.h)(0x6025237C)
+I (../X-CUBE-AI/App/lc_print.h)(0x677A435C)
+F (../X-CUBE-AI/App/syscalls.c)(0x677A435C)(--c99 --gnu -c --cpu Cortex-M7.fp.dp -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../X-CUBE-AI/App -I ../X-CUBE-AI -I ../Middlewares/ST/AI/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I ../Drivers/CMSIS/Include-I.\RTE\_last-ID:\MDK5.36\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-ID:\MDK5.36\Packs\Keil\STM32H7xx_DFP\2.7.0\Drivers\CMSIS\Device\ST\STM32H7xx\Include-D__UVISION_VERSION="536" -D_RTE_ -DSTM32H742xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32H742xx-o last\syscalls.o --omf_browse last\syscalls.crf --depend last\syscalls.d)
+I (D:\MDK5.36\ARM\ARMCC\include\string.h)(0x6025237E)
+I (D:\MDK5.36\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (D:\MDK5.36\ARM\ARMCC\include\stdio.h)(0x60252374)
+I (D:\MDK5.36\ARM\ARMCC\include\stdlib.h)(0x60252374)
+I (D:\MDK5.36\ARM\ARMCC\include\assert.h)(0x60252378)
+I (D:\MDK5.36\ARM\ARMCC\include\rt_sys.h)(0x6025237E)
+F (../X-CUBE-AI/App/app_x-cube-ai.c)(0x677A4B5B)(--c99 --gnu -c --cpu Cortex-M7.fp.dp -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../X-CUBE-AI/App -I ../X-CUBE-AI -I ../Middlewares/ST/AI/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I ../Drivers/CMSIS/Include-I.\RTE\_last-ID:\MDK5.36\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-ID:\MDK5.36\Packs\Keil\STM32H7xx_DFP\2.7.0\Drivers\CMSIS\Device\ST\STM32H7xx\Include-D__UVISION_VERSION="536" -D_RTE_ -DSTM32H742xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32H742xx-o last\app_x-cube-ai.o --omf_browse last\app_x-cube-ai.crf --depend last\app_x-cube-ai.d)
+I (D:\MDK5.36\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (D:\MDK5.36\ARM\ARMCC\include\stdlib.h)(0x60252374)
+I (D:\MDK5.36\ARM\ARMCC\include\stdio.h)(0x60252374)
+I (D:\MDK5.36\ARM\ARMCC\include\inttypes.h)(0x6025237E)
+I (D:\MDK5.36\ARM\ARMCC\include\string.h)(0x6025237E)
+I (../X-CUBE-AI/App/app_x-cube-ai.h)(0x677A4B5B)
+F (../Core/Src/main.c)(0x677A4B5C)(--c99 --gnu -c --cpu Cortex-M7.fp.dp -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../X-CUBE-AI/App -I ../X-CUBE-AI -I ../Middlewares/ST/AI/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I ../Drivers/CMSIS/Include-I.\RTE\_last-ID:\MDK5.36\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-ID:\MDK5.36\Packs\Keil\STM32H7xx_DFP\2.7.0\Drivers\CMSIS\Device\ST\STM32H7xx\Include-D__UVISION_VERSION="536" -D_RTE_ -DSTM32H742xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32H742xx-o last\main.o --omf_browse last\main.crf --depend last\main.d)
+I (../Core/Inc/main.h)(0x677A4B5C)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal.h)(0x673D5D0A)
+I (../Core/Inc/stm32h7xx_hal_conf.h)(0x677A4B5C)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc.h)(0x673D5D0A)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_def.h)(0x673D5D0A)
+I (../Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h7xx.h)(0x673D5D0A)
+I (../Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h742xx.h)(0x673D5D0A)
+I (../Drivers/CMSIS/Include/core_cm7.h)(0x673D5C12)
+I (D:\MDK5.36\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x673D5C12)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x673D5C12)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x673D5C12)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x673D5C12)
+I (../Drivers/CMSIS/Device/ST/STM32H7xx/Include/system_stm32h7xx.h)(0x673D5D0A)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x673D5D0A)
+I (D:\MDK5.36\ARM\ARMCC\include\stddef.h)(0x6025237E)
+I (D:\MDK5.36\ARM\ARMCC\include\math.h)(0x60252378)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc_ex.h)(0x673D5D0A)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_gpio.h)(0x673D5D0A)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_gpio_ex.h)(0x673D5D0A)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_dma.h)(0x673D5D0A)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_dma_ex.h)(0x673D5D0A)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_mdma.h)(0x673D5D0A)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_exti.h)(0x673D5D0A)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_cortex.h)(0x673D5D0A)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_crc.h)(0x673D5D0A)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_crc_ex.h)(0x673D5D0A)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_flash.h)(0x673D5D0A)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_flash_ex.h)(0x673D5D0A)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_hsem.h)(0x673D5D0A)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_i2c.h)(0x673D5D0A)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_i2c_ex.h)(0x673D5D0A)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pwr.h)(0x673D5D0A)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pwr_ex.h)(0x673D5D0A)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart.h)(0x673D5D0A)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart_ex.h)(0x673D5D0A)
+I (../Core/Inc/crc.h)(0x677A4B5A)
+I (../Core/Inc/memorymap.h)(0x677A4B5A)
+I (../Core/Inc/usart.h)(0x677A4B5B)
+I (../Core/Inc/gpio.h)(0x677A4B59)
+I (../X-CUBE-AI/App/app_x-cube-ai.h)(0x677A4B5B)
+F (../Core/Src/gpio.c)(0x677A4B59)(--c99 --gnu -c --cpu Cortex-M7.fp.dp -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../X-CUBE-AI/App -I ../X-CUBE-AI -I ../Middlewares/ST/AI/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I ../Drivers/CMSIS/Include-I.\RTE\_last-ID:\MDK5.36\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-ID:\MDK5.36\Packs\Keil\STM32H7xx_DFP\2.7.0\Drivers\CMSIS\Device\ST\STM32H7xx\Include-D__UVISION_VERSION="536" -D_RTE_ -DSTM32H742xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32H742xx-o last\gpio.o --omf_browse last\gpio.crf --depend last\gpio.d)
+I (../Core/Inc/gpio.h)(0x677A4B59)
+I (../Core/Inc/main.h)(0x677A4B5C)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal.h)(0x673D5D0A)
+I (../Core/Inc/stm32h7xx_hal_conf.h)(0x677A4B5C)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc.h)(0x673D5D0A)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_def.h)(0x673D5D0A)
+I (../Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h7xx.h)(0x673D5D0A)
+I (../Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h742xx.h)(0x673D5D0A)
+I (../Drivers/CMSIS/Include/core_cm7.h)(0x673D5C12)
+I (D:\MDK5.36\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x673D5C12)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x673D5C12)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x673D5C12)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x673D5C12)
+I (../Drivers/CMSIS/Device/ST/STM32H7xx/Include/system_stm32h7xx.h)(0x673D5D0A)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x673D5D0A)
+I (D:\MDK5.36\ARM\ARMCC\include\stddef.h)(0x6025237E)
+I (D:\MDK5.36\ARM\ARMCC\include\math.h)(0x60252378)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc_ex.h)(0x673D5D0A)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_gpio.h)(0x673D5D0A)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_gpio_ex.h)(0x673D5D0A)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_dma.h)(0x673D5D0A)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_dma_ex.h)(0x673D5D0A)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_mdma.h)(0x673D5D0A)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_exti.h)(0x673D5D0A)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_cortex.h)(0x673D5D0A)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_crc.h)(0x673D5D0A)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_crc_ex.h)(0x673D5D0A)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_flash.h)(0x673D5D0A)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_flash_ex.h)(0x673D5D0A)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_hsem.h)(0x673D5D0A)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_i2c.h)(0x673D5D0A)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_i2c_ex.h)(0x673D5D0A)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pwr.h)(0x673D5D0A)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pwr_ex.h)(0x673D5D0A)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart.h)(0x673D5D0A)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart_ex.h)(0x673D5D0A)
+F (../Core/Src/crc.c)(0x677A4B5A)(--c99 --gnu -c --cpu Cortex-M7.fp.dp -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../X-CUBE-AI/App -I ../X-CUBE-AI -I ../Middlewares/ST/AI/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I ../Drivers/CMSIS/Include-I.\RTE\_last-ID:\MDK5.36\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-ID:\MDK5.36\Packs\Keil\STM32H7xx_DFP\2.7.0\Drivers\CMSIS\Device\ST\STM32H7xx\Include-D__UVISION_VERSION="536" -D_RTE_ -DSTM32H742xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32H742xx-o last\crc.o --omf_browse last\crc.crf --depend last\crc.d)
+I (../Core/Inc/crc.h)(0x677A4B5A)
+I (../Core/Inc/main.h)(0x677A4B5C)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal.h)(0x673D5D0A)
+I (../Core/Inc/stm32h7xx_hal_conf.h)(0x677A4B5C)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc.h)(0x673D5D0A)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_def.h)(0x673D5D0A)
+I (../Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h7xx.h)(0x673D5D0A)
+I (../Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h742xx.h)(0x673D5D0A)
+I (../Drivers/CMSIS/Include/core_cm7.h)(0x673D5C12)
+I (D:\MDK5.36\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x673D5C12)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x673D5C12)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x673D5C12)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x673D5C12)
+I (../Drivers/CMSIS/Device/ST/STM32H7xx/Include/system_stm32h7xx.h)(0x673D5D0A)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x673D5D0A)
+I (D:\MDK5.36\ARM\ARMCC\include\stddef.h)(0x6025237E)
+I (D:\MDK5.36\ARM\ARMCC\include\math.h)(0x60252378)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc_ex.h)(0x673D5D0A)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_gpio.h)(0x673D5D0A)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_gpio_ex.h)(0x673D5D0A)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_dma.h)(0x673D5D0A)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_dma_ex.h)(0x673D5D0A)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_mdma.h)(0x673D5D0A)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_exti.h)(0x673D5D0A)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_cortex.h)(0x673D5D0A)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_crc.h)(0x673D5D0A)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_crc_ex.h)(0x673D5D0A)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_flash.h)(0x673D5D0A)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_flash_ex.h)(0x673D5D0A)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_hsem.h)(0x673D5D0A)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_i2c.h)(0x673D5D0A)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_i2c_ex.h)(0x673D5D0A)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pwr.h)(0x673D5D0A)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pwr_ex.h)(0x673D5D0A)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart.h)(0x673D5D0A)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart_ex.h)(0x673D5D0A)
+F (../Core/Src/memorymap.c)(0x677A4B5A)(--c99 --gnu -c --cpu Cortex-M7.fp.dp -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../X-CUBE-AI/App -I ../X-CUBE-AI -I ../Middlewares/ST/AI/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I ../Drivers/CMSIS/Include-I.\RTE\_last-ID:\MDK5.36\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-ID:\MDK5.36\Packs\Keil\STM32H7xx_DFP\2.7.0\Drivers\CMSIS\Device\ST\STM32H7xx\Include-D__UVISION_VERSION="536" -D_RTE_ -DSTM32H742xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32H742xx-o last\memorymap.o --omf_browse last\memorymap.crf --depend last\memorymap.d)
+I (../Core/Inc/memorymap.h)(0x677A4B5A)
+I (../Core/Inc/main.h)(0x677A4B5C)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal.h)(0x673D5D0A)
+I (../Core/Inc/stm32h7xx_hal_conf.h)(0x677A4B5C)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc.h)(0x673D5D0A)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_def.h)(0x673D5D0A)
+I (../Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h7xx.h)(0x673D5D0A)
+I (../Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h742xx.h)(0x673D5D0A)
+I (../Drivers/CMSIS/Include/core_cm7.h)(0x673D5C12)
+I (D:\MDK5.36\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x673D5C12)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x673D5C12)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x673D5C12)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x673D5C12)
+I (../Drivers/CMSIS/Device/ST/STM32H7xx/Include/system_stm32h7xx.h)(0x673D5D0A)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x673D5D0A)
+I (D:\MDK5.36\ARM\ARMCC\include\stddef.h)(0x6025237E)
+I (D:\MDK5.36\ARM\ARMCC\include\math.h)(0x60252378)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc_ex.h)(0x673D5D0A)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_gpio.h)(0x673D5D0A)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_gpio_ex.h)(0x673D5D0A)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_dma.h)(0x673D5D0A)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_dma_ex.h)(0x673D5D0A)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_mdma.h)(0x673D5D0A)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_exti.h)(0x673D5D0A)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_cortex.h)(0x673D5D0A)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_crc.h)(0x673D5D0A)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_crc_ex.h)(0x673D5D0A)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_flash.h)(0x673D5D0A)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_flash_ex.h)(0x673D5D0A)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_hsem.h)(0x673D5D0A)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_i2c.h)(0x673D5D0A)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_i2c_ex.h)(0x673D5D0A)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pwr.h)(0x673D5D0A)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pwr_ex.h)(0x673D5D0A)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart.h)(0x673D5D0A)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart_ex.h)(0x673D5D0A)
+F (../Core/Src/usart.c)(0x677A4B5B)(--c99 --gnu -c --cpu Cortex-M7.fp.dp -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../X-CUBE-AI/App -I ../X-CUBE-AI -I ../Middlewares/ST/AI/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I ../Drivers/CMSIS/Include-I.\RTE\_last-ID:\MDK5.36\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-ID:\MDK5.36\Packs\Keil\STM32H7xx_DFP\2.7.0\Drivers\CMSIS\Device\ST\STM32H7xx\Include-D__UVISION_VERSION="536" -D_RTE_ -DSTM32H742xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32H742xx-o last\usart.o --omf_browse last\usart.crf --depend last\usart.d)
+I (../Core/Inc/usart.h)(0x677A4B5B)
+I (../Core/Inc/main.h)(0x677A4B5C)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal.h)(0x673D5D0A)
+I (../Core/Inc/stm32h7xx_hal_conf.h)(0x677A4B5C)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc.h)(0x673D5D0A)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_def.h)(0x673D5D0A)
+I (../Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h7xx.h)(0x673D5D0A)
+I (../Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h742xx.h)(0x673D5D0A)
+I (../Drivers/CMSIS/Include/core_cm7.h)(0x673D5C12)
+I (D:\MDK5.36\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x673D5C12)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x673D5C12)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x673D5C12)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x673D5C12)
+I (../Drivers/CMSIS/Device/ST/STM32H7xx/Include/system_stm32h7xx.h)(0x673D5D0A)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x673D5D0A)
+I (D:\MDK5.36\ARM\ARMCC\include\stddef.h)(0x6025237E)
+I (D:\MDK5.36\ARM\ARMCC\include\math.h)(0x60252378)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc_ex.h)(0x673D5D0A)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_gpio.h)(0x673D5D0A)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_gpio_ex.h)(0x673D5D0A)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_dma.h)(0x673D5D0A)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_dma_ex.h)(0x673D5D0A)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_mdma.h)(0x673D5D0A)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_exti.h)(0x673D5D0A)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_cortex.h)(0x673D5D0A)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_crc.h)(0x673D5D0A)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_crc_ex.h)(0x673D5D0A)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_flash.h)(0x673D5D0A)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_flash_ex.h)(0x673D5D0A)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_hsem.h)(0x673D5D0A)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_i2c.h)(0x673D5D0A)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_i2c_ex.h)(0x673D5D0A)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pwr.h)(0x673D5D0A)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pwr_ex.h)(0x673D5D0A)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart.h)(0x673D5D0A)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart_ex.h)(0x673D5D0A)
+F (../Core/Src/stm32h7xx_it.c)(0x677A4B5B)(--c99 --gnu -c --cpu Cortex-M7.fp.dp -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../X-CUBE-AI/App -I ../X-CUBE-AI -I ../Middlewares/ST/AI/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I ../Drivers/CMSIS/Include-I.\RTE\_last-ID:\MDK5.36\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-ID:\MDK5.36\Packs\Keil\STM32H7xx_DFP\2.7.0\Drivers\CMSIS\Device\ST\STM32H7xx\Include-D__UVISION_VERSION="536" -D_RTE_ -DSTM32H742xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32H742xx-o last\stm32h7xx_it.o --omf_browse last\stm32h7xx_it.crf --depend last\stm32h7xx_it.d)
+I (../Core/Inc/main.h)(0x677A4B5C)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal.h)(0x673D5D0A)
+I (../Core/Inc/stm32h7xx_hal_conf.h)(0x677A4B5C)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc.h)(0x673D5D0A)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_def.h)(0x673D5D0A)
+I (../Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h7xx.h)(0x673D5D0A)
+I (../Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h742xx.h)(0x673D5D0A)
+I (../Drivers/CMSIS/Include/core_cm7.h)(0x673D5C12)
+I (D:\MDK5.36\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x673D5C12)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x673D5C12)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x673D5C12)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x673D5C12)
+I (../Drivers/CMSIS/Device/ST/STM32H7xx/Include/system_stm32h7xx.h)(0x673D5D0A)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x673D5D0A)
+I (D:\MDK5.36\ARM\ARMCC\include\stddef.h)(0x6025237E)
+I (D:\MDK5.36\ARM\ARMCC\include\math.h)(0x60252378)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc_ex.h)(0x673D5D0A)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_gpio.h)(0x673D5D0A)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_gpio_ex.h)(0x673D5D0A)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_dma.h)(0x673D5D0A)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_dma_ex.h)(0x673D5D0A)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_mdma.h)(0x673D5D0A)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_exti.h)(0x673D5D0A)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_cortex.h)(0x673D5D0A)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_crc.h)(0x673D5D0A)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_crc_ex.h)(0x673D5D0A)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_flash.h)(0x673D5D0A)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_flash_ex.h)(0x673D5D0A)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_hsem.h)(0x673D5D0A)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_i2c.h)(0x673D5D0A)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_i2c_ex.h)(0x673D5D0A)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pwr.h)(0x673D5D0A)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pwr_ex.h)(0x673D5D0A)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart.h)(0x673D5D0A)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart_ex.h)(0x673D5D0A)
+I (../Core/Inc/stm32h7xx_it.h)(0x677A4B5B)
+F (../Core/Src/stm32h7xx_hal_msp.c)(0x677A4B5B)(--c99 --gnu -c --cpu Cortex-M7.fp.dp -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../X-CUBE-AI/App -I ../X-CUBE-AI -I ../Middlewares/ST/AI/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I ../Drivers/CMSIS/Include-I.\RTE\_last-ID:\MDK5.36\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-ID:\MDK5.36\Packs\Keil\STM32H7xx_DFP\2.7.0\Drivers\CMSIS\Device\ST\STM32H7xx\Include-D__UVISION_VERSION="536" -D_RTE_ -DSTM32H742xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32H742xx-o last\stm32h7xx_hal_msp.o --omf_browse last\stm32h7xx_hal_msp.crf --depend last\stm32h7xx_hal_msp.d)
+I (../Core/Inc/main.h)(0x677A4B5C)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal.h)(0x673D5D0A)
+I (../Core/Inc/stm32h7xx_hal_conf.h)(0x677A4B5C)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc.h)(0x673D5D0A)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_def.h)(0x673D5D0A)
+I (../Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h7xx.h)(0x673D5D0A)
+I (../Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h742xx.h)(0x673D5D0A)
+I (../Drivers/CMSIS/Include/core_cm7.h)(0x673D5C12)
+I (D:\MDK5.36\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x673D5C12)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x673D5C12)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x673D5C12)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x673D5C12)
+I (../Drivers/CMSIS/Device/ST/STM32H7xx/Include/system_stm32h7xx.h)(0x673D5D0A)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x673D5D0A)
+I (D:\MDK5.36\ARM\ARMCC\include\stddef.h)(0x6025237E)
+I (D:\MDK5.36\ARM\ARMCC\include\math.h)(0x60252378)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc_ex.h)(0x673D5D0A)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_gpio.h)(0x673D5D0A)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_gpio_ex.h)(0x673D5D0A)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_dma.h)(0x673D5D0A)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_dma_ex.h)(0x673D5D0A)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_mdma.h)(0x673D5D0A)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_exti.h)(0x673D5D0A)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_cortex.h)(0x673D5D0A)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_crc.h)(0x673D5D0A)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_crc_ex.h)(0x673D5D0A)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_flash.h)(0x673D5D0A)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_flash_ex.h)(0x673D5D0A)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_hsem.h)(0x673D5D0A)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_i2c.h)(0x673D5D0A)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_i2c_ex.h)(0x673D5D0A)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pwr.h)(0x673D5D0A)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pwr_ex.h)(0x673D5D0A)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart.h)(0x673D5D0A)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart_ex.h)(0x673D5D0A)
+F (../X-CUBE-AI/App/network_generate_report.txt)(0x677A5033)()
+F (../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_cortex.c)(0x673D5D0A)(--c99 --gnu -c --cpu Cortex-M7.fp.dp -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../X-CUBE-AI/App -I ../X-CUBE-AI -I ../Middlewares/ST/AI/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I ../Drivers/CMSIS/Include-I.\RTE\_last-ID:\MDK5.36\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-ID:\MDK5.36\Packs\Keil\STM32H7xx_DFP\2.7.0\Drivers\CMSIS\Device\ST\STM32H7xx\Include-D__UVISION_VERSION="536" -D_RTE_ -DSTM32H742xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32H742xx-o last\stm32h7xx_hal_cortex.o --omf_browse last\stm32h7xx_hal_cortex.crf --depend last\stm32h7xx_hal_cortex.d)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal.h)(0x673D5D0A)
+I (../Core/Inc/stm32h7xx_hal_conf.h)(0x677A4B5C)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc.h)(0x673D5D0A)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_def.h)(0x673D5D0A)
+I (../Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h7xx.h)(0x673D5D0A)
+I (../Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h742xx.h)(0x673D5D0A)
+I (../Drivers/CMSIS/Include/core_cm7.h)(0x673D5C12)
+I (D:\MDK5.36\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x673D5C12)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x673D5C12)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x673D5C12)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x673D5C12)
+I (../Drivers/CMSIS/Device/ST/STM32H7xx/Include/system_stm32h7xx.h)(0x673D5D0A)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x673D5D0A)
+I (D:\MDK5.36\ARM\ARMCC\include\stddef.h)(0x6025237E)
+I (D:\MDK5.36\ARM\ARMCC\include\math.h)(0x60252378)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc_ex.h)(0x673D5D0A)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_gpio.h)(0x673D5D0A)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_gpio_ex.h)(0x673D5D0A)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_dma.h)(0x673D5D0A)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_dma_ex.h)(0x673D5D0A)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_mdma.h)(0x673D5D0A)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_exti.h)(0x673D5D0A)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_cortex.h)(0x673D5D0A)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_crc.h)(0x673D5D0A)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_crc_ex.h)(0x673D5D0A)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_flash.h)(0x673D5D0A)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_flash_ex.h)(0x673D5D0A)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_hsem.h)(0x673D5D0A)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_i2c.h)(0x673D5D0A)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_i2c_ex.h)(0x673D5D0A)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pwr.h)(0x673D5D0A)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pwr_ex.h)(0x673D5D0A)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart.h)(0x673D5D0A)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart_ex.h)(0x673D5D0A)
+F (../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_crc.c)(0x673D5D0A)(--c99 --gnu -c --cpu Cortex-M7.fp.dp -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../X-CUBE-AI/App -I ../X-CUBE-AI -I ../Middlewares/ST/AI/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I ../Drivers/CMSIS/Include-I.\RTE\_last-ID:\MDK5.36\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-ID:\MDK5.36\Packs\Keil\STM32H7xx_DFP\2.7.0\Drivers\CMSIS\Device\ST\STM32H7xx\Include-D__UVISION_VERSION="536" -D_RTE_ -DSTM32H742xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32H742xx-o last\stm32h7xx_hal_crc.o --omf_browse last\stm32h7xx_hal_crc.crf --depend last\stm32h7xx_hal_crc.d)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal.h)(0x673D5D0A)
+I (../Core/Inc/stm32h7xx_hal_conf.h)(0x677A4B5C)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc.h)(0x673D5D0A)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_def.h)(0x673D5D0A)
+I (../Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h7xx.h)(0x673D5D0A)
+I (../Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h742xx.h)(0x673D5D0A)
+I (../Drivers/CMSIS/Include/core_cm7.h)(0x673D5C12)
+I (D:\MDK5.36\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x673D5C12)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x673D5C12)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x673D5C12)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x673D5C12)
+I (../Drivers/CMSIS/Device/ST/STM32H7xx/Include/system_stm32h7xx.h)(0x673D5D0A)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x673D5D0A)
+I (D:\MDK5.36\ARM\ARMCC\include\stddef.h)(0x6025237E)
+I (D:\MDK5.36\ARM\ARMCC\include\math.h)(0x60252378)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc_ex.h)(0x673D5D0A)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_gpio.h)(0x673D5D0A)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_gpio_ex.h)(0x673D5D0A)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_dma.h)(0x673D5D0A)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_dma_ex.h)(0x673D5D0A)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_mdma.h)(0x673D5D0A)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_exti.h)(0x673D5D0A)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_cortex.h)(0x673D5D0A)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_crc.h)(0x673D5D0A)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_crc_ex.h)(0x673D5D0A)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_flash.h)(0x673D5D0A)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_flash_ex.h)(0x673D5D0A)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_hsem.h)(0x673D5D0A)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_i2c.h)(0x673D5D0A)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_i2c_ex.h)(0x673D5D0A)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pwr.h)(0x673D5D0A)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pwr_ex.h)(0x673D5D0A)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart.h)(0x673D5D0A)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart_ex.h)(0x673D5D0A)
+F (../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_crc_ex.c)(0x673D5D0A)(--c99 --gnu -c --cpu Cortex-M7.fp.dp -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../X-CUBE-AI/App -I ../X-CUBE-AI -I ../Middlewares/ST/AI/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I ../Drivers/CMSIS/Include-I.\RTE\_last-ID:\MDK5.36\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-ID:\MDK5.36\Packs\Keil\STM32H7xx_DFP\2.7.0\Drivers\CMSIS\Device\ST\STM32H7xx\Include-D__UVISION_VERSION="536" -D_RTE_ -DSTM32H742xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32H742xx-o last\stm32h7xx_hal_crc_ex.o --omf_browse last\stm32h7xx_hal_crc_ex.crf --depend last\stm32h7xx_hal_crc_ex.d)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal.h)(0x673D5D0A)
+I (../Core/Inc/stm32h7xx_hal_conf.h)(0x677A4B5C)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc.h)(0x673D5D0A)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_def.h)(0x673D5D0A)
+I (../Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h7xx.h)(0x673D5D0A)
+I (../Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h742xx.h)(0x673D5D0A)
+I (../Drivers/CMSIS/Include/core_cm7.h)(0x673D5C12)
+I (D:\MDK5.36\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x673D5C12)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x673D5C12)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x673D5C12)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x673D5C12)
+I (../Drivers/CMSIS/Device/ST/STM32H7xx/Include/system_stm32h7xx.h)(0x673D5D0A)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x673D5D0A)
+I (D:\MDK5.36\ARM\ARMCC\include\stddef.h)(0x6025237E)
+I (D:\MDK5.36\ARM\ARMCC\include\math.h)(0x60252378)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc_ex.h)(0x673D5D0A)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_gpio.h)(0x673D5D0A)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_gpio_ex.h)(0x673D5D0A)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_dma.h)(0x673D5D0A)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_dma_ex.h)(0x673D5D0A)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_mdma.h)(0x673D5D0A)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_exti.h)(0x673D5D0A)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_cortex.h)(0x673D5D0A)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_crc.h)(0x673D5D0A)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_crc_ex.h)(0x673D5D0A)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_flash.h)(0x673D5D0A)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_flash_ex.h)(0x673D5D0A)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_hsem.h)(0x673D5D0A)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_i2c.h)(0x673D5D0A)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_i2c_ex.h)(0x673D5D0A)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pwr.h)(0x673D5D0A)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pwr_ex.h)(0x673D5D0A)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart.h)(0x673D5D0A)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart_ex.h)(0x673D5D0A)
+F (../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc.c)(0x673D5D0A)(--c99 --gnu -c --cpu Cortex-M7.fp.dp -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../X-CUBE-AI/App -I ../X-CUBE-AI -I ../Middlewares/ST/AI/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I ../Drivers/CMSIS/Include-I.\RTE\_last-ID:\MDK5.36\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-ID:\MDK5.36\Packs\Keil\STM32H7xx_DFP\2.7.0\Drivers\CMSIS\Device\ST\STM32H7xx\Include-D__UVISION_VERSION="536" -D_RTE_ -DSTM32H742xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32H742xx-o last\stm32h7xx_hal_rcc.o --omf_browse last\stm32h7xx_hal_rcc.crf --depend last\stm32h7xx_hal_rcc.d)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal.h)(0x673D5D0A)
+I (../Core/Inc/stm32h7xx_hal_conf.h)(0x677A4B5C)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc.h)(0x673D5D0A)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_def.h)(0x673D5D0A)
+I (../Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h7xx.h)(0x673D5D0A)
+I (../Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h742xx.h)(0x673D5D0A)
+I (../Drivers/CMSIS/Include/core_cm7.h)(0x673D5C12)
+I (D:\MDK5.36\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x673D5C12)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x673D5C12)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x673D5C12)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x673D5C12)
+I (../Drivers/CMSIS/Device/ST/STM32H7xx/Include/system_stm32h7xx.h)(0x673D5D0A)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x673D5D0A)
+I (D:\MDK5.36\ARM\ARMCC\include\stddef.h)(0x6025237E)
+I (D:\MDK5.36\ARM\ARMCC\include\math.h)(0x60252378)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc_ex.h)(0x673D5D0A)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_gpio.h)(0x673D5D0A)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_gpio_ex.h)(0x673D5D0A)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_dma.h)(0x673D5D0A)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_dma_ex.h)(0x673D5D0A)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_mdma.h)(0x673D5D0A)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_exti.h)(0x673D5D0A)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_cortex.h)(0x673D5D0A)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_crc.h)(0x673D5D0A)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_crc_ex.h)(0x673D5D0A)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_flash.h)(0x673D5D0A)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_flash_ex.h)(0x673D5D0A)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_hsem.h)(0x673D5D0A)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_i2c.h)(0x673D5D0A)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_i2c_ex.h)(0x673D5D0A)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pwr.h)(0x673D5D0A)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pwr_ex.h)(0x673D5D0A)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart.h)(0x673D5D0A)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart_ex.h)(0x673D5D0A)
+F (../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc_ex.c)(0x673D5D0A)(--c99 --gnu -c --cpu Cortex-M7.fp.dp -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../X-CUBE-AI/App -I ../X-CUBE-AI -I ../Middlewares/ST/AI/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I ../Drivers/CMSIS/Include-I.\RTE\_last-ID:\MDK5.36\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-ID:\MDK5.36\Packs\Keil\STM32H7xx_DFP\2.7.0\Drivers\CMSIS\Device\ST\STM32H7xx\Include-D__UVISION_VERSION="536" -D_RTE_ -DSTM32H742xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32H742xx-o last\stm32h7xx_hal_rcc_ex.o --omf_browse last\stm32h7xx_hal_rcc_ex.crf --depend last\stm32h7xx_hal_rcc_ex.d)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal.h)(0x673D5D0A)
+I (../Core/Inc/stm32h7xx_hal_conf.h)(0x677A4B5C)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc.h)(0x673D5D0A)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_def.h)(0x673D5D0A)
+I (../Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h7xx.h)(0x673D5D0A)
+I (../Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h742xx.h)(0x673D5D0A)
+I (../Drivers/CMSIS/Include/core_cm7.h)(0x673D5C12)
+I (D:\MDK5.36\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x673D5C12)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x673D5C12)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x673D5C12)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x673D5C12)
+I (../Drivers/CMSIS/Device/ST/STM32H7xx/Include/system_stm32h7xx.h)(0x673D5D0A)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x673D5D0A)
+I (D:\MDK5.36\ARM\ARMCC\include\stddef.h)(0x6025237E)
+I (D:\MDK5.36\ARM\ARMCC\include\math.h)(0x60252378)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc_ex.h)(0x673D5D0A)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_gpio.h)(0x673D5D0A)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_gpio_ex.h)(0x673D5D0A)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_dma.h)(0x673D5D0A)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_dma_ex.h)(0x673D5D0A)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_mdma.h)(0x673D5D0A)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_exti.h)(0x673D5D0A)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_cortex.h)(0x673D5D0A)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_crc.h)(0x673D5D0A)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_crc_ex.h)(0x673D5D0A)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_flash.h)(0x673D5D0A)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_flash_ex.h)(0x673D5D0A)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_hsem.h)(0x673D5D0A)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_i2c.h)(0x673D5D0A)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_i2c_ex.h)(0x673D5D0A)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pwr.h)(0x673D5D0A)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pwr_ex.h)(0x673D5D0A)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart.h)(0x673D5D0A)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart_ex.h)(0x673D5D0A)
+F (../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_flash.c)(0x673D5D0A)(--c99 --gnu -c --cpu Cortex-M7.fp.dp -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../X-CUBE-AI/App -I ../X-CUBE-AI -I ../Middlewares/ST/AI/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I ../Drivers/CMSIS/Include-I.\RTE\_last-ID:\MDK5.36\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-ID:\MDK5.36\Packs\Keil\STM32H7xx_DFP\2.7.0\Drivers\CMSIS\Device\ST\STM32H7xx\Include-D__UVISION_VERSION="536" -D_RTE_ -DSTM32H742xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32H742xx-o last\stm32h7xx_hal_flash.o --omf_browse last\stm32h7xx_hal_flash.crf --depend last\stm32h7xx_hal_flash.d)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal.h)(0x673D5D0A)
+I (../Core/Inc/stm32h7xx_hal_conf.h)(0x677A4B5C)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc.h)(0x673D5D0A)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_def.h)(0x673D5D0A)
+I (../Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h7xx.h)(0x673D5D0A)
+I (../Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h742xx.h)(0x673D5D0A)
+I (../Drivers/CMSIS/Include/core_cm7.h)(0x673D5C12)
+I (D:\MDK5.36\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x673D5C12)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x673D5C12)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x673D5C12)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x673D5C12)
+I (../Drivers/CMSIS/Device/ST/STM32H7xx/Include/system_stm32h7xx.h)(0x673D5D0A)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x673D5D0A)
+I (D:\MDK5.36\ARM\ARMCC\include\stddef.h)(0x6025237E)
+I (D:\MDK5.36\ARM\ARMCC\include\math.h)(0x60252378)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc_ex.h)(0x673D5D0A)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_gpio.h)(0x673D5D0A)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_gpio_ex.h)(0x673D5D0A)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_dma.h)(0x673D5D0A)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_dma_ex.h)(0x673D5D0A)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_mdma.h)(0x673D5D0A)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_exti.h)(0x673D5D0A)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_cortex.h)(0x673D5D0A)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_crc.h)(0x673D5D0A)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_crc_ex.h)(0x673D5D0A)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_flash.h)(0x673D5D0A)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_flash_ex.h)(0x673D5D0A)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_hsem.h)(0x673D5D0A)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_i2c.h)(0x673D5D0A)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_i2c_ex.h)(0x673D5D0A)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pwr.h)(0x673D5D0A)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pwr_ex.h)(0x673D5D0A)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart.h)(0x673D5D0A)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart_ex.h)(0x673D5D0A)
+F (../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_flash_ex.c)(0x673D5D0A)(--c99 --gnu -c --cpu Cortex-M7.fp.dp -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../X-CUBE-AI/App -I ../X-CUBE-AI -I ../Middlewares/ST/AI/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I ../Drivers/CMSIS/Include-I.\RTE\_last-ID:\MDK5.36\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-ID:\MDK5.36\Packs\Keil\STM32H7xx_DFP\2.7.0\Drivers\CMSIS\Device\ST\STM32H7xx\Include-D__UVISION_VERSION="536" -D_RTE_ -DSTM32H742xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32H742xx-o last\stm32h7xx_hal_flash_ex.o --omf_browse last\stm32h7xx_hal_flash_ex.crf --depend last\stm32h7xx_hal_flash_ex.d)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal.h)(0x673D5D0A)
+I (../Core/Inc/stm32h7xx_hal_conf.h)(0x677A4B5C)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc.h)(0x673D5D0A)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_def.h)(0x673D5D0A)
+I (../Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h7xx.h)(0x673D5D0A)
+I (../Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h742xx.h)(0x673D5D0A)
+I (../Drivers/CMSIS/Include/core_cm7.h)(0x673D5C12)
+I (D:\MDK5.36\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x673D5C12)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x673D5C12)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x673D5C12)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x673D5C12)
+I (../Drivers/CMSIS/Device/ST/STM32H7xx/Include/system_stm32h7xx.h)(0x673D5D0A)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x673D5D0A)
+I (D:\MDK5.36\ARM\ARMCC\include\stddef.h)(0x6025237E)
+I (D:\MDK5.36\ARM\ARMCC\include\math.h)(0x60252378)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc_ex.h)(0x673D5D0A)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_gpio.h)(0x673D5D0A)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_gpio_ex.h)(0x673D5D0A)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_dma.h)(0x673D5D0A)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_dma_ex.h)(0x673D5D0A)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_mdma.h)(0x673D5D0A)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_exti.h)(0x673D5D0A)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_cortex.h)(0x673D5D0A)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_crc.h)(0x673D5D0A)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_crc_ex.h)(0x673D5D0A)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_flash.h)(0x673D5D0A)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_flash_ex.h)(0x673D5D0A)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_hsem.h)(0x673D5D0A)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_i2c.h)(0x673D5D0A)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_i2c_ex.h)(0x673D5D0A)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pwr.h)(0x673D5D0A)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pwr_ex.h)(0x673D5D0A)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart.h)(0x673D5D0A)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart_ex.h)(0x673D5D0A)
+F (../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_gpio.c)(0x673D5D0A)(--c99 --gnu -c --cpu Cortex-M7.fp.dp -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../X-CUBE-AI/App -I ../X-CUBE-AI -I ../Middlewares/ST/AI/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I ../Drivers/CMSIS/Include-I.\RTE\_last-ID:\MDK5.36\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-ID:\MDK5.36\Packs\Keil\STM32H7xx_DFP\2.7.0\Drivers\CMSIS\Device\ST\STM32H7xx\Include-D__UVISION_VERSION="536" -D_RTE_ -DSTM32H742xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32H742xx-o last\stm32h7xx_hal_gpio.o --omf_browse last\stm32h7xx_hal_gpio.crf --depend last\stm32h7xx_hal_gpio.d)
+F (../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_hsem.c)(0x673D5D0A)(--c99 --gnu -c --cpu Cortex-M7.fp.dp -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../X-CUBE-AI/App -I ../X-CUBE-AI -I ../Middlewares/ST/AI/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I ../Drivers/CMSIS/Include-I.\RTE\_last-ID:\MDK5.36\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-ID:\MDK5.36\Packs\Keil\STM32H7xx_DFP\2.7.0\Drivers\CMSIS\Device\ST\STM32H7xx\Include-D__UVISION_VERSION="536" -D_RTE_ -DSTM32H742xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32H742xx-o last\stm32h7xx_hal_hsem.o --omf_browse last\stm32h7xx_hal_hsem.crf --depend last\stm32h7xx_hal_hsem.d)
+F (../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma.c)(0x673D5D0A)(--c99 --gnu -c --cpu Cortex-M7.fp.dp -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../X-CUBE-AI/App -I ../X-CUBE-AI -I ../Middlewares/ST/AI/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I ../Drivers/CMSIS/Include-I.\RTE\_last-ID:\MDK5.36\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-ID:\MDK5.36\Packs\Keil\STM32H7xx_DFP\2.7.0\Drivers\CMSIS\Device\ST\STM32H7xx\Include-D__UVISION_VERSION="536" -D_RTE_ -DSTM32H742xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32H742xx-o last\stm32h7xx_hal_dma.o --omf_browse last\stm32h7xx_hal_dma.crf --depend last\stm32h7xx_hal_dma.d)
+F (../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma_ex.c)(0x673D5D0A)(--c99 --gnu -c --cpu Cortex-M7.fp.dp -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../X-CUBE-AI/App -I ../X-CUBE-AI -I ../Middlewares/ST/AI/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I ../Drivers/CMSIS/Include-I.\RTE\_last-ID:\MDK5.36\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-ID:\MDK5.36\Packs\Keil\STM32H7xx_DFP\2.7.0\Drivers\CMSIS\Device\ST\STM32H7xx\Include-D__UVISION_VERSION="536" -D_RTE_ -DSTM32H742xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32H742xx-o last\stm32h7xx_hal_dma_ex.o --omf_browse last\stm32h7xx_hal_dma_ex.crf --depend last\stm32h7xx_hal_dma_ex.d)
+F (../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_mdma.c)(0x673D5D0A)(--c99 --gnu -c --cpu Cortex-M7.fp.dp -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../X-CUBE-AI/App -I ../X-CUBE-AI -I ../Middlewares/ST/AI/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I ../Drivers/CMSIS/Include-I.\RTE\_last-ID:\MDK5.36\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-ID:\MDK5.36\Packs\Keil\STM32H7xx_DFP\2.7.0\Drivers\CMSIS\Device\ST\STM32H7xx\Include-D__UVISION_VERSION="536" -D_RTE_ -DSTM32H742xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32H742xx-o last\stm32h7xx_hal_mdma.o --omf_browse last\stm32h7xx_hal_mdma.crf --depend last\stm32h7xx_hal_mdma.d)
+F (../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr.c)(0x673D5D0A)(--c99 --gnu -c --cpu Cortex-M7.fp.dp -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../X-CUBE-AI/App -I ../X-CUBE-AI -I ../Middlewares/ST/AI/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I ../Drivers/CMSIS/Include-I.\RTE\_last-ID:\MDK5.36\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-ID:\MDK5.36\Packs\Keil\STM32H7xx_DFP\2.7.0\Drivers\CMSIS\Device\ST\STM32H7xx\Include-D__UVISION_VERSION="536" -D_RTE_ -DSTM32H742xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32H742xx-o last\stm32h7xx_hal_pwr.o --omf_browse last\stm32h7xx_hal_pwr.crf --depend last\stm32h7xx_hal_pwr.d)
+F (../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr_ex.c)(0x673D5D0A)(--c99 --gnu -c --cpu Cortex-M7.fp.dp -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../X-CUBE-AI/App -I ../X-CUBE-AI -I ../Middlewares/ST/AI/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I ../Drivers/CMSIS/Include-I.\RTE\_last-ID:\MDK5.36\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-ID:\MDK5.36\Packs\Keil\STM32H7xx_DFP\2.7.0\Drivers\CMSIS\Device\ST\STM32H7xx\Include-D__UVISION_VERSION="536" -D_RTE_ -DSTM32H742xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32H742xx-o last\stm32h7xx_hal_pwr_ex.o --omf_browse last\stm32h7xx_hal_pwr_ex.crf --depend last\stm32h7xx_hal_pwr_ex.d)
+F (../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal.c)(0x673D5D0A)(--c99 --gnu -c --cpu Cortex-M7.fp.dp -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../X-CUBE-AI/App -I ../X-CUBE-AI -I ../Middlewares/ST/AI/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I ../Drivers/CMSIS/Include-I.\RTE\_last-ID:\MDK5.36\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-ID:\MDK5.36\Packs\Keil\STM32H7xx_DFP\2.7.0\Drivers\CMSIS\Device\ST\STM32H7xx\Include-D__UVISION_VERSION="536" -D_RTE_ -DSTM32H742xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32H742xx-o last\stm32h7xx_hal.o --omf_browse last\stm32h7xx_hal.crf --depend last\stm32h7xx_hal.d)
+F (../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_i2c.c)(0x673D5D0A)(--c99 --gnu -c --cpu Cortex-M7.fp.dp -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../X-CUBE-AI/App -I ../X-CUBE-AI -I ../Middlewares/ST/AI/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I ../Drivers/CMSIS/Include-I.\RTE\_last-ID:\MDK5.36\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-ID:\MDK5.36\Packs\Keil\STM32H7xx_DFP\2.7.0\Drivers\CMSIS\Device\ST\STM32H7xx\Include-D__UVISION_VERSION="536" -D_RTE_ -DSTM32H742xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32H742xx-o last\stm32h7xx_hal_i2c.o --omf_browse last\stm32h7xx_hal_i2c.crf --depend last\stm32h7xx_hal_i2c.d)
+F (../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_i2c_ex.c)(0x673D5D0A)(--c99 --gnu -c --cpu Cortex-M7.fp.dp -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../X-CUBE-AI/App -I ../X-CUBE-AI -I ../Middlewares/ST/AI/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I ../Drivers/CMSIS/Include-I.\RTE\_last-ID:\MDK5.36\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-ID:\MDK5.36\Packs\Keil\STM32H7xx_DFP\2.7.0\Drivers\CMSIS\Device\ST\STM32H7xx\Include-D__UVISION_VERSION="536" -D_RTE_ -DSTM32H742xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32H742xx-o last\stm32h7xx_hal_i2c_ex.o --omf_browse last\stm32h7xx_hal_i2c_ex.crf --depend last\stm32h7xx_hal_i2c_ex.d)
+F (../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_exti.c)(0x673D5D0A)(--c99 --gnu -c --cpu Cortex-M7.fp.dp -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../X-CUBE-AI/App -I ../X-CUBE-AI -I ../Middlewares/ST/AI/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I ../Drivers/CMSIS/Include-I.\RTE\_last-ID:\MDK5.36\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-ID:\MDK5.36\Packs\Keil\STM32H7xx_DFP\2.7.0\Drivers\CMSIS\Device\ST\STM32H7xx\Include-D__UVISION_VERSION="536" -D_RTE_ -DSTM32H742xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32H742xx-o last\stm32h7xx_hal_exti.o --omf_browse last\stm32h7xx_hal_exti.crf --depend last\stm32h7xx_hal_exti.d)
+F (../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim.c)(0x673D5D0A)(--c99 --gnu -c --cpu Cortex-M7.fp.dp -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../X-CUBE-AI/App -I ../X-CUBE-AI -I ../Middlewares/ST/AI/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I ../Drivers/CMSIS/Include-I.\RTE\_last-ID:\MDK5.36\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-ID:\MDK5.36\Packs\Keil\STM32H7xx_DFP\2.7.0\Drivers\CMSIS\Device\ST\STM32H7xx\Include-D__UVISION_VERSION="536" -D_RTE_ -DSTM32H742xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32H742xx-o last\stm32h7xx_hal_tim.o --omf_browse last\stm32h7xx_hal_tim.crf --depend last\stm32h7xx_hal_tim.d)
+F (../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim_ex.c)(0x673D5D0A)(--c99 --gnu -c --cpu Cortex-M7.fp.dp -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../X-CUBE-AI/App -I ../X-CUBE-AI -I ../Middlewares/ST/AI/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I ../Drivers/CMSIS/Include-I.\RTE\_last-ID:\MDK5.36\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-ID:\MDK5.36\Packs\Keil\STM32H7xx_DFP\2.7.0\Drivers\CMSIS\Device\ST\STM32H7xx\Include-D__UVISION_VERSION="536" -D_RTE_ -DSTM32H742xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32H742xx-o last\stm32h7xx_hal_tim_ex.o --omf_browse last\stm32h7xx_hal_tim_ex.crf --depend last\stm32h7xx_hal_tim_ex.d)
+F (../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart.c)(0x673D5D0A)(--c99 --gnu -c --cpu Cortex-M7.fp.dp -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../X-CUBE-AI/App -I ../X-CUBE-AI -I ../Middlewares/ST/AI/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I ../Drivers/CMSIS/Include-I.\RTE\_last-ID:\MDK5.36\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-ID:\MDK5.36\Packs\Keil\STM32H7xx_DFP\2.7.0\Drivers\CMSIS\Device\ST\STM32H7xx\Include-D__UVISION_VERSION="536" -D_RTE_ -DSTM32H742xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32H742xx-o last\stm32h7xx_hal_uart.o --omf_browse last\stm32h7xx_hal_uart.crf --depend last\stm32h7xx_hal_uart.d)
+F (../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart_ex.c)(0x673D5D0A)(--c99 --gnu -c --cpu Cortex-M7.fp.dp -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../X-CUBE-AI/App -I ../X-CUBE-AI -I ../Middlewares/ST/AI/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I ../Drivers/CMSIS/Include-I.\RTE\_last-ID:\MDK5.36\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-ID:\MDK5.36\Packs\Keil\STM32H7xx_DFP\2.7.0\Drivers\CMSIS\Device\ST\STM32H7xx\Include-D__UVISION_VERSION="536" -D_RTE_ -DSTM32H742xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32H742xx-o last\stm32h7xx_hal_uart_ex.o --omf_browse last\stm32h7xx_hal_uart_ex.crf --depend last\stm32h7xx_hal_uart_ex.d)
+F (../Core/Src/system_stm32h7xx.c)(0x673D5D0A)(--c99 --gnu -c --cpu Cortex-M7.fp.dp -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../X-CUBE-AI/App -I ../X-CUBE-AI -I ../Middlewares/ST/AI/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I ../Drivers/CMSIS/Include-I.\RTE\_last-ID:\MDK5.36\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-ID:\MDK5.36\Packs\Keil\STM32H7xx_DFP\2.7.0\Drivers\CMSIS\Device\ST\STM32H7xx\Include-D__UVISION_VERSION="536" -D_RTE_ -DSTM32H742xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32H742xx-o last\system_stm32h7xx.o --omf_browse last\system_stm32h7xx.crf --depend last\system_stm32h7xx.d)
+F (../Middlewares/ST/AI/Lib/NetworkRuntime810_CM7_Keil.lib)(0x677A435C)()

@@ -1,0 +1,9 @@
+last\aipbmemrwservices.o: ../X-CUBE-AI/App/aiPbMemRWServices.c
+last\aipbmemrwservices.o: ../X-CUBE-AI/App/aiPbMemRWServices.h
+last\aipbmemrwservices.o: ../X-CUBE-AI/App/aiPbMgr.h
+last\aipbmemrwservices.o: D:\MDK5.36\ARM\ARMCC\Bin\..\include\stdint.h
+last\aipbmemrwservices.o: ../X-CUBE-AI/App/pb.h
+last\aipbmemrwservices.o: D:\MDK5.36\ARM\ARMCC\Bin\..\include\stddef.h
+last\aipbmemrwservices.o: D:\MDK5.36\ARM\ARMCC\Bin\..\include\stdbool.h
+last\aipbmemrwservices.o: D:\MDK5.36\ARM\ARMCC\Bin\..\include\string.h
+last\aipbmemrwservices.o: ../X-CUBE-AI/App/stm32msg.pb.h

@@ -1,0 +1,13 @@
+last\aivalidation.o: ../X-CUBE-AI/App/aiValidation.c
+last\aivalidation.o: D:\MDK5.36\ARM\ARMCC\Bin\..\include\stdint.h
+last\aivalidation.o: D:\MDK5.36\ARM\ARMCC\Bin\..\include\stdlib.h
+last\aivalidation.o: D:\MDK5.36\ARM\ARMCC\Bin\..\include\stdio.h
+last\aivalidation.o: D:\MDK5.36\ARM\ARMCC\Bin\..\include\inttypes.h
+last\aivalidation.o: D:\MDK5.36\ARM\ARMCC\Bin\..\include\string.h
+last\aivalidation.o: D:\MDK5.36\ARM\ARMCC\Bin\..\include\stdarg.h
+last\aivalidation.o: ../X-CUBE-AI/App/aiValidation.h
+last\aivalidation.o: ../X-CUBE-AI/App/aiTestUtility.h
+last\aivalidation.o: D:\MDK5.36\ARM\ARMCC\Bin\..\include\stdbool.h
+last\aivalidation.o: ../X-CUBE-AI/App/ai_device_adaptor.h
+last\aivalidation.o: ../Drivers/CMSIS/Include/cmsis_compiler.h
+last\aivalidation.o: ../Drivers/CMSIS/Include/cmsis_armcc.h

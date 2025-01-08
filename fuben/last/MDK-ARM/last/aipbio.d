@@ -1,0 +1,14 @@
+last\aipbio.o: ../X-CUBE-AI/App/aiPbIO.c
+last\aipbio.o: D:\MDK5.36\ARM\ARMCC\Bin\..\include\stdint.h
+last\aipbio.o: D:\MDK5.36\ARM\ARMCC\Bin\..\include\stdlib.h
+last\aipbio.o: D:\MDK5.36\ARM\ARMCC\Bin\..\include\stdio.h
+last\aipbio.o: D:\MDK5.36\ARM\ARMCC\Bin\..\include\inttypes.h
+last\aipbio.o: D:\MDK5.36\ARM\ARMCC\Bin\..\include\string.h
+last\aipbio.o: ../X-CUBE-AI/App/aiPbIO.h
+last\aipbio.o: ../X-CUBE-AI/App/pb.h
+last\aipbio.o: D:\MDK5.36\ARM\ARMCC\Bin\..\include\stddef.h
+last\aipbio.o: D:\MDK5.36\ARM\ARMCC\Bin\..\include\stdbool.h
+last\aipbio.o: ../X-CUBE-AI/App/aiTestUtility.h
+last\aipbio.o: ../X-CUBE-AI/App/ai_device_adaptor.h
+last\aipbio.o: ../Drivers/CMSIS/Include/cmsis_compiler.h
+last\aipbio.o: ../Drivers/CMSIS/Include/cmsis_armcc.h
